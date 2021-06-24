@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookHub.Repositories\BooksHub.Repositories.csproj" />
+    <ProjectReference Include="..\BooksHub.Data\BooksHub.Data.csproj" />
+    <ProjectReference Include="..\BooksHub.Models\BooksHub.Models.csproj" />
+  </ItemGroup>
+
+</Project>
